@@ -1,0 +1,2 @@
+ra dec dist pmra pmdec rad_vel
+120 0 5 2.3 1.2 43
