@@ -1,0 +1,85 @@
+cuts we adopted: 
+____________________________________________
+15<l<345..else beyond this limit the vc-s are negative..towards GC nebo na..radila velo are expectde to be zero..so randomness er effect is large..
+bulge avoided since data is 3 kpc onwards and b is lt 10 degrees..hence also halo avoided as well
+abs(b)<10 as mentioned by Philip 2001 ppr(A&A 367, 967{972 (2001))
+peculiar velo cut not possible it requires a preknown RC data..so we assume all v_r contributed by rotation velo only..
+
+
+_____________________________________________
+Maciel 2005
+___________________________________________________________
+(i) We have included only galactic disk planetary nebulae, so that
+halo (type IV) and bulge (type V) nebulae have been
+excluded. (|b|<15 ** see phillips2011 sec 3)
+
+(ii) PN having extremely large peculiar radial
+velocities have not been considered, as these objects
+have a weak correlation with the galactic disk
+rotation curve, as can be seen for example by the
+work of Maciel & Dutra (1992). These objects are
+basically Peimbert type III nebulae, so that most
+of the objects in our sample could be classified as
+type I or II, and our curves can be directly compared
+with the corresponding results by Maciel &
+Dutra (1992).
+
+(iii) objects near the direction
+of the galactic center have been excluded, since the
+expected radial velocities of these objects may show
+a very large variation, so that the possible errors
+are increased. Therefore, our sample does not include
+objects having galactic longitudes within 20
+degrees of the galactic center. (0<l<10,350>l>360 ** see phillips2011 sec 3)
+
+(iv) in order to make a homogeneous comparison of the four
+distance scales, we have considered objects in the
+galactocentric range of approximately 4 to 14 kpc.
+Applying these selection criteria, our final samples
+include 259 objects for the distance scale by Maciel
+(1984)
+
+**Fig. 1 shows all objects in the approximate range of 
+4 to 14 kpc with measured radial velocities adopting distances of Maciel
+(1984), including limits. If we exclude those nebulae
+for which distance limits are given in Maciel
+(1984), the number of objects drops to about two
+hundred nebulae, but the behavior of the rotation
+curve is indistinguishable from Fig. 1, so that we prefer
+to display the full statistical sample.
+
+**average velocities in 0.5 kpc bins
+
+************************************************************************************
+
+Phillips 2001
+___________________________________________________________
+(a) Sources are excluded if they possess galactic latitudes
+0 < l < 10 and 350 < l < 360; thereby eliminating
+the large majority of population II PN (bulge sources)
+which do not follow the disk rotation curve;
+
+b) We also exclude sources having 90 < l < 270, since
+the galactic rotation curve is relatively ill-defined for
+radii R > R0 (see for instance Honma & Sofue 1997);
+
+c) We only include nebulae possessing galactic latitudes
+|b| < 15, in order to restrict the sample to those
+sources which are clearly participating in disk rotation.
+In fact, of the sample to be analysed later, fully
+90% have latitudes |b|< 10;
+
+d) Finally, and perhaps most importantly, we select
+ranges of l and Vr over which non-linearities in the
+distance scale are likely to be small. In particular, we
+eliminate sources having Vr < VA = 40 kms−1, and
+which have velocities within 40 km s−1 of the maximum
+(tangential) rotational velocity along any particular
+longitude l. Specifically:
+Vr .le. VB = \theta(R = R0 sin(l)) − \theta_0 sin(l) − 40 kms−1:
+Assuming to a first approximation that \theta(R) ~ \theta(R0) = 220 kms−1, this then yields
+Vr < (180 − 220 sin(l)) kms−1;
+suggesting that l < 40 where Vr > 40 kms−1. Given the
+constraint cited in (a) above, this then implies that only
+sources having 10 < l < 40, and 320 < l < 350 are
+appropriate for inclusion in this analysis.

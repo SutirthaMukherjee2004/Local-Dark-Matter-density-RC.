@@ -1,0 +1,10 @@
+\begin{tabular}{ll}
+\hline
+ \rho_{DM,\odot} [GeV cm^{-3}]      & 0.28399\pm 0.00021                  \\
+ \Sigma_{\odot} [M_{\odot} pc^{-3}] & 54.059\pm 0.040                     \\
+ r_s                                & 199.930^{+0.070}_{-0.016}           \\
+ \rho_{b0}                          & \left(\,2\pm 1\,\right)\cdot 10^{6} \\
+ r_b                                & 0.000293^{+0.000079}_{-0.00028}     \\
+ R_{d,1}                            & 2.24283\pm 0.00062                  \\
+\hline
+\end{tabular}

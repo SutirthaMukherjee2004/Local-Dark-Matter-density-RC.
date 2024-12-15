@@ -1,0 +1,114 @@
+#  
+#   VizieR Astronomical Server vizier.cfa.harvard.edu
+#    Date: 2013-01-10T12:18:26 [V1.97 (28-Nov-2012)]
+#   In case of problem, please report to: question@simbad.u-strasbg.fr
+# 
+#   
+#Coosys J2000: eq_FK5 J2000 
+#INFO votable-version=1.97 (28-Nov-2012) 
+#INFO -ref=VIZ50eeaf0f1ba3 
+#INFO -out.max=unlimited 
+#INFO queryParameters=29 
+#-oc.form=sexa
+#-out.max=unlimited
+#-out.add=_r
+#-out.add=_x,_y
+#-out.add=_Glon,_Glat
+#-out.add=_RAJ,_DEJ
+#-sort=_r
+#-nav=cat:VII/50&tab:{VII/50/cosouth}&key:source=VII/50/cosouth&HTTPPRM:&-ref=VIZ50eeaf0f1ba3&-out.max=50&-out.form=HTML Table&-out.add=_r&-out.add=_RAJ,_DEJ&-sort=_r&-oc.form=sexa&-meta.foot=1&-meta=1&-meta.ucd=2&-file=.&-meta=1&-usenav=1&
+#-c.eq=J2000
+#-c.r=  2
+#-c.u=arcmin
+#-c.geom=r
+#-source=VII/50/cosouth
+#-order=I
+#-out=Sname
+#-out=RA1950
+#-out=DE1950
+#-out=GLON
+#-out=GLAT
+#-out=VLSR
+#-out=V-H109
+#-out=V-OH1
+#-out=V-OH2
+#-out=V-OH3
+#-out=V-H2CO1
+#-out=V-H2CO2
+#-out=Distan
+#-out=e_Distan
+#-out=Com
+#
+
+#RESOURCE=yCat_7050
+#Name: VII/50
+#Title: CO Radial Velocities Toward Galactic H II Regions (Blitz+ 1982)
+#Coosys B1950: eq_FK4 B1950    
+#Coosys G: galactic     
+#Table VII_50_cosouth:
+#Name: VII/50/cosouth
+#Title: CO at Southern Hemisphere H II Regions
+#---Details of Columns:
+    _Glon (deg)        (F7.3)  Galactic longitude (computed by VizieR, not part of the original data) [ucd=pos.galactic.lon]
+    _Glat (deg)        (F7.3)  Galactic latitude (computed by VizieR, not part of the original data) [ucd=pos.galactic.lat]
+    _RAJ2000 ("h:m:s") (A8)    Right ascension (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data) [ucd=pos.eq.ra]
+    _DEJ2000 ("d:m:s") (A8)    Declination (FK5, Equinox=J2000.0) (computed by VizieR, not part of the original data) [ucd=pos.eq.dec]
+    Sname              (a14)   *Source designation. [ucd=meta.id]
+    RA1950 ("h:m:s")   (A8)    Right Ascension (Equatorial coord. 1950) [ucd=pos.eq.ra;meta.main]
+    DE1950 ("d:m:s")   (A9)    Sign, always '-', of Declination [ucd=pos.eq.dec;meta.main]
+    GLON (deg)         (F7.2)  *Galactic longitude, l(II), in degrees [ucd=pos.galactic.lon]
+    GLAT (deg)         (F7.2)  *Galactic latitude, b(II), in degrees [ucd=pos.galactic.lat]
+    VLSR (km/s)        (F5.1)  Median CO velocity (Local Standard of Rest) [ucd=phys.veloc;pos.lsr]
+    V-H109 (km/s)      (F7.1)  *? Velocity of the H 109 alpha line [ucd=phys.veloc;pos.heliocentric]
+    V-OH1 (km/s)       (F7.1)  *? Velocity of the OH line [ucd=phys.veloc;pos.heliocentric]
+    V-OH2 (km/s)       (F7.1)  *? Velocity of another strong OH line [ucd=phys.veloc;pos.heliocentric]
+    V-OH3 (km/s)       (F7.1)  *? Velocity of another strong OH line [ucd=phys.veloc;pos.heliocentric]
+    V-H2CO1 (km/s)     (F10.2) *? Velocity of the H2CO line [ucd=phys.veloc;pos.heliocentric]
+    V-H2CO2 (km/s)     (F5.1)  *? Velocity of another strong H2CO line [ucd=phys.veloc;pos.heliocentric]
+    Distan (kpc)       (F5.2)  *[]? Distance [ucd=pos.distance]
+    e_Distan (kpc)     (F5.2)  Error of distance measurement [ucd=stat.error]
+    Com                (a5)    *Notes [ucd=meta.note]
+------- ------- -------- -------- -------------- -------- --------- ------- ------- ----- ------- ------- ------- ------- ---------- ----- ----- ----- -----
+                _R       _D                                                         V                                                V-H2  Di    e_Di       
+_Glo    _Gla    AJ2000 ( EJ2000 (                RA1950 ( DE1950    GLO     GLA     LSR ( V-H109  V-OH1   V-OH2   V-OH3   V-H2       CO2 ( stan  stan       
+n (deg) t (deg) "h:m:s") "d:m:s") Sname          "h:m:s") ("d:m:s") N (deg) T (deg) km/s) (km/s)  (km/s)  (km/s)  (km/s)  CO1 (km/s) km/s) (kpc) (kpc) Com  
+------- ------- -------- -------- -------------- -------- --------- ------- ------- ----- ------- ------- ------- ------- ---------- ----- ----- ----- -----
+265.142  +1.452 08 59 26 -43 45.1 RCW36          08 57 38 -43 33 24  265.10    1.50   7.0     2.8     6.0                       6.70              0.00 A,C
+267.948  -1.059 08 59 07 -47 31.0 RCW38          08 57 25 -47 19 18  267.90   -1.10   2.0     1.8     2.0                       2.80              0.00 B,C
+274.013  -1.150 09 24 27 -52 00.0 RCW42          09 22 47 -51 47 00  274.00   -1.10  37.5    39.6    37.0                      34.70              0.00 B
+284.305  -0.338 10 24 13 -57 47.0 RCW49          10 22 22 -57 31 48  284.30   -0.30  16.0    -0.7   -13.0                     -14.10  -9.5  3.80  2.00 A
+287.384  -0.629 10 43 34 -59 35.1 RCW53          10 41 38 -59 19 18  287.40   -0.60 -18.0   -18.1                             -23.80              0.00 A
+291.280  -0.716 11 11 55 -61 18.9 RCW57          11 09 47 -61 02 36  291.30   -0.70 -24.0   -23.4   -26.0                     -25.80              0.00 A,B
+298.223  -0.338 12 10 01 -62 49.8                12 07 22 -62 33 06  298.20   -0.30  34.5    30.6                              30.30              0.00 B
+298.865  -0.434 12 15 28 -63 01.3                12 12 46 -62 44 36  298.90   -0.40  29.0    24.2    19.0                      19.00              0.00 
+305.200  +0.030 13 11 16 -62 45.2 RCW74          13 08 04 -62 29 18  305.20    0.00 -37.0   -40.0   -46.0   -33.0             -44.40              0.00 
+305.251  +0.222 13 11 35 -62 33.5 RCW74          13 08 23 -62 17 36  305.30    0.20 -39.5   -39.1                             -37.90              0.00 
+305.361  +0.192 13 12 34 -62 34.8 RCW74          13 09 21 -62 18 54  305.40    0.20 -38.0   -39.1   -40.0                     -35.10              0.00 
+316.796  -0.055 14 45 20 -59 49.5                14 41 31 -59 36 54  316.80   -0.10 -38.0   -36.1   -39.0                     -37.10              0.00 A
+320.173  +0.799 15 05 25 -57 31.0 RCW87          15 01 36 -57 19 24  320.20    0.80 -39.5   -36.0                             -40.10              0.00 
+322.165  +0.622 15 18 40 -56 38.9 RCW92          15 14 50 -56 28 00  322.20    0.60 -56.0   -51.8   -55.0                     -54.10              0.00 
+324.201  +0.113 15 32 55 -55 56.5                15 29 03 -55 46 24  324.20    0.10 -89.0   -86.6                             -92.80              0.00 
+326.657  +0.574 15 44 48 -54 06.7 RCW95?         15 40 58 -53 57 18  326.70    0.60 -41.0   -44.5   -46.0                     -54.20              0.00 
+327.306  -0.553 15 53 06 -54 35.4 RCW97          15 49 13 -54 26 30  327.30   -0.50 -47.0   -48.8   -50.0                     -48.70              0.00 B,C
+330.872  -0.368 16 10 18 -52 06.4                16 06 29 -51 58 36  330.90   -0.40 -62.0   -56.1                             -62.70 -54.7        0.00 C
+331.528  -0.085 16 12 10 -51 27.2                16 08 22 -51 19 30  331.50   -0.10 -90.5   -88.7                             -89.30              0.00 C
+332.151  -0.450 16 16 40 -51 17.3                16 12 52 -51 09 54  332.20   -0.40 -55.5   -55.0   -44.0                     -57.30              0.00 C
+332.813  -0.569 16 20 13 -50 54.7 RCW106         16 16 25 -50 47 30  332.80   -0.60 -55.0   -57.2                             -58.60        4.50  2.00 C
+333.033  -0.446 16 20 39 -50 40.1                16 16 52 -50 33 00  333.00   -0.40 -54.5   -53.8                             -54.60              0.00 C
+333.119  -0.445 16 21 02 -50 36.4                16 17 15 -50 29 18  333.10   -0.40 -54.0   -55.8   -41.0   -55.0             -52.20              0.00 B,C
+333.298  -0.384 16 21 34 -50 26.3                16 17 47 -50 19 12  333.30   -0.40 -52.0   -50.1                             -53.90              0.00 B,C
+335.719  +1.916 16 22 05 -47 05.9                16 18 26 -46 58 54  333.60   -0.20 -51.0   -48.3   -53.0                     -45.80              0.00 B,C
+336.504  -1.482 16 40 05 -48 51.4 RCW108,NGC6193 16 36 20 -48 45 36  336.50   -1.50 -25.5   -24.9   -24.0                     -22.40        1.30  1.00 B
+337.124  -0.174 16 36 44 -47 31.4                16 33 02 -47 25 18  337.10   -0.20 -73.5   -72.7   -21.0   -38.0   -76.0    -119.60 -73.7        0.00 C
+345.408  -0.951 17 09 36 -41 35.9 RCW117         17 06 04 -41 32 06  345.40   -0.90 -18.5   -21.1   -22.0                     -22.10 -18.1        0.00 B
+348.728  -1.038 17 20 07 -38 57.1 RCW122         17 16 40 -38 54 06  348.70   -1.00 -14.0   -12.5   -13.0   -32.0             -13.40              0.00 A,B
+351.050  +0.652 17 19 50 -36 04.8 RCW127         17 16 28 -36 01 48  351.00    0.70  -7.0    -5.3                               6.40  -1.1  1.90  1.00 D
+351.158  +0.691 17 19 58 -35 58.2 RCW127         17 16 37 -35 55 12  351.10    0.70  -8.0    -3.6    -8.0                      -6.70              0.00 A
+351.191  +0.479 17 20 56 -36 03.9 RCW127         17 17 34 -36 00 54  351.20    0.50  -8.0    -7.8                               6.30              0.00 A
+351.351  +0.657 17 20 39 -35 49.9 RCW127         17 17 18 -35 46 54  351.40    0.70  -5.0    -3.2    -5.0                      -3.00              0.00 A
+351.427  +0.641 17 20 56 -35 46.7 RCW127         17 17 35 -35 43 42  351.40    0.70  -5.0    -3.2   -12.0                      -5.00              0.00 A
+351.637  -1.259 17 29 19 -36 40.3                17 25 56 -36 37 54  351.60   -1.30 -12.0   -12.2   -12.0                     -12.90              0.00 A,B,C
+353.125  +0.644 17 25 37 -34 22.5 W22,NGC6357    17 22 18 -34 19 54  353.10    0.60  -5.0    -4.1                               5.80  -4.7        0.00 A,C
+353.194  +0.891 17 24 49 -34 10.8 W22,NGC6357    17 21 30 -34 08 06  353.20    0.90  -7.0    -3.8                               6.00  -3.6        0.00 A,B,C
+
+#END#  -ref=VIZ50eeaf0f1ba3 ====================================================================================================================================================================================================================
